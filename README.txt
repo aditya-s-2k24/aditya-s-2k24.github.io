@@ -17,4 +17,4 @@ aditya-s-2k24.github.io
 - Since all analysis on tokens must be performed on dictionary words, the tokenization code handles punctuation but NOT numbers.
 - If a number is part of a sequence of alphabets, that sequence is NOT a word.
 - A sequence of numbers in not a word.
-- The textarea field can scroll to accomodate 10000 words.
+- The textarea field can scroll to accomodate 10000+ words.
