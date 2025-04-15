@@ -18,6 +18,7 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link rel="icon" type="image/jpeg" href="images/profile.png" />
   </head>
   <body>
     <div class="container-fluid m-5">
@@ -150,6 +151,7 @@
         render(getNumTk(tokens, pronouns), "pronouns");
         render(getNumTk(tokens, prepositions), "prep");
         render(getNumTk(tokens, articles), "articles");
+        return tokens;
       }
     </script>
   </body>
