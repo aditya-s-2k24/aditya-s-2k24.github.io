@@ -1,0 +1,20 @@
+.photos img {
+  transition: transform 0.3s ease;
+}
+
+.photos img:hover {
+  transform: scale(1.03);
+}
+
+body {
+  background-color: #fffff0;
+}
+
+.btn-black {
+  border-color: #000 !important;
+  color: #000 !important;
+  font-family: monospace !important;
+}
+.underline {
+  text-decoration: underline;
+}
