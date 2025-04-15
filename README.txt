@@ -10,6 +10,7 @@ aditya-s-2k24.github.io
 - Since the questions says "page views" I have taken it to mean that we need to log the "view" event only for the entire page and not individual elements.
 - As the questions says the event object should be something like "drop-down, image, text, etc." i have not directly console.log'ed the object, but rather printed out what type of element has been clicked as text.
 - To make the output more readable I have used a pipe symbol (|) instead of a comma.
+- "page views" only apply to pages, so a console.log is only generated when a user loads index.html or q3.html NOT when they click on an email, telephone or CV link.
 
 ## Q3
 

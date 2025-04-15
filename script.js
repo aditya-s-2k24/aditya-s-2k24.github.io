@@ -1,6 +1,6 @@
 window.addEventListener("DOMContentLoaded", () => {
   const timestamp = new Date().toISOString();
-  console.log(`${timestamp} | view | page loaded`);
+  console.log(`${timestamp} | view | home page loaded`);
 });
 
 document.addEventListener("click", (event) => {

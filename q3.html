@@ -153,6 +153,11 @@
         render(getNumTk(tokens, articles), "articles");
         return tokens;
       }
+
+      window.addEventListener("DOMContentLoaded", () => {
+        const timestamp = new Date().toISOString();
+        console.log(`${timestamp} | view | Q3 page loaded`);
+      });
     </script>
   </body>
 </html>
